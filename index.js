@@ -2,8 +2,8 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-const books = require("./data/books.json"); //assert { type: "json" };
-const userBooks = require("./data/user_books.json"); //assert { type: "json" };
+const books = require("./data/books.json");
+const userBooks = require("./data/user_books.json");
 
 // объявление констант
 const allBooks = JSON.parse(JSON.stringify(books));
